@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/sbafsk/sbafsk.github.io/static/js/main.7365f526.chunk.js",
-    "main.js.map": "/sbafsk/sbafsk.github.io/static/js/main.7365f526.chunk.js.map",
-    "runtime-main.js": "/sbafsk/sbafsk.github.io/static/js/runtime-main.ab2a0f92.js",
-    "runtime-main.js.map": "/sbafsk/sbafsk.github.io/static/js/runtime-main.ab2a0f92.js.map",
-    "static/js/2.1a4cd216.chunk.js": "/sbafsk/sbafsk.github.io/static/js/2.1a4cd216.chunk.js",
-    "static/js/2.1a4cd216.chunk.js.map": "/sbafsk/sbafsk.github.io/static/js/2.1a4cd216.chunk.js.map",
-    "index.html": "/sbafsk/sbafsk.github.io/index.html",
-    "static/js/2.1a4cd216.chunk.js.LICENSE.txt": "/sbafsk/sbafsk.github.io/static/js/2.1a4cd216.chunk.js.LICENSE.txt"
+    "main.js": "/static/js/main.7365f526.chunk.js",
+    "main.js.map": "/static/js/main.7365f526.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
+    "static/js/2.1a4cd216.chunk.js": "/static/js/2.1a4cd216.chunk.js",
+    "static/js/2.1a4cd216.chunk.js.map": "/static/js/2.1a4cd216.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.1a4cd216.chunk.js.LICENSE.txt": "/static/js/2.1a4cd216.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab2a0f92.js",
+    "static/js/runtime-main.5ebc510a.js",
     "static/js/2.1a4cd216.chunk.js",
     "static/js/main.7365f526.chunk.js"
   ]
