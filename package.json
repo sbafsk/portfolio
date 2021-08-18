@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/sbafsk/portfolio",
+  "homepage": "https://sbafsk.github.io",
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/core": "^7.15.0",
     "@chakra-ui/react": "^1.6.6",
@@ -16,13 +16,14 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "typescript": "^4.3.5",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

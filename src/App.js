@@ -1,17 +1,26 @@
 import React from 'react';
-import { ChakraProvider, Box, Text, theme, Grid } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
+import { ChakraProvider, theme } from '@chakra-ui/react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import Home from './pages/Home';
+import Profile from './pages/Profile';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Layout from './components/UI/Layout';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="60vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-
-          <Text>Sebastian Pereira's portfolio coming soon...</Text>
-        </Grid>
-      </Box>
+      <BrowserRouter>
+        <Layout>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/profile" component={Profile} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+        </Layout>
+      </BrowserRouter>
     </ChakraProvider>
   );
 }
