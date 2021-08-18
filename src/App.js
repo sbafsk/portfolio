@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChakraProvider, theme } from '@chakra-ui/react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Profile from './pages/Profile';
@@ -11,7 +11,7 @@ import Layout from './components/UI/Layout';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <BrowserRouter>
+      <HashRouter>
         <Layout>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </Switch>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </ChakraProvider>
   );
 }

@@ -14,7 +14,7 @@ const ResponseModal = ({ isOpen, onClose, data }) => {
     data && (
       <Modal isOpen={isOpen} size="md">
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent mt="28">
           <Alert
             status={data.type}
             variant="left-accent"
@@ -22,7 +22,7 @@ const ResponseModal = ({ isOpen, onClose, data }) => {
             justifyContent="space-around"
             height="56"
           >
-            <AlertIcon boxSize="12" ml="2"/>
+            <AlertIcon boxSize="12" ml="2" />
             <AlertTitle>{data.title}</AlertTitle>
             <AlertDescription>{data.message}</AlertDescription>
             <Button onClick={onClose} variant="outline">
